@@ -1,0 +1,51 @@
+*	{
+	 padding: 0;
+	 margin: 0
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #262626;
+	line-height: 1.5;
+}
+
+section {
+	text-align: center;
+  	background-image: url("images/rainboweyesmall.jpg");
+  	background-size: cover;
+  	color: #000;
+  	font-family: Helvetica;
+}
+
+header {
+	background-color: #000000;
+	font-family: Helvetica;
+	padding: 20px;
+}
+
+nav a {
+	float: right;
+	color: #ffffff;
+	margin-right: 10px;
+}
+
+h1 {
+	color: #FFB34F
+}
+
+h3, h4, h5 {
+	margin: 20px 0;
+}
+
+h5 {
+	color: #949494
+}
+
+main {
+	padding: 20px;
+}
+
+ul {
+	padding-left: 15px;
+}
