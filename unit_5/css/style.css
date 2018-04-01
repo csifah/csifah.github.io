@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*	{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing:border-box;
+}
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #262626;
+	line-height: 1.5em;
+}
+section {
+	padding: 4em 0;
+}
+header {
+	background-color: #000000;
+	font-family: 'Open Sans', Arial, sans-serif;
+	padding: 20px;
+}
+
+nav {
+	text-align: center;
+	background-color: #000;
+	display: block;
+	border: 1px black solid;
+    padding: 10px;
+}
+
+nav a {
+	color: #ffffff;
+	margin-right: 10px;
+	border-bottom: 1px solid #fff;
+	border: none;
+}
+
+nav a:hover {
+	background-color: #FFB34F;
+}
+
+h1 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: bold;
+	color: #FFB34F;
+	padding: 10px 10px;
+}
+
+h3, h4, h5 {
+	margin: 20px 0;
+}
+
+h2 {
+	font-family: 'Stint Ultra Expanded', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: arial, sans-serif;
+	font-size: 1.5em
+	font-weight: normal;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+ul {
+	padding-left: 15px;
+}
+
+aside {
+	color: #ffffff;
+	display: block;
+	width: 180px;
+	float: left;
+	padding: 10px 0;
+}
+
+footer {
+	background-color: #eee;
+    border: 1px black dotted;
+    padding: 20px;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+#wrapper {
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#intro {
+	background-image: url("../images/rainboweyesmall.jpg");
+	background-size: cover;
+	height: 60vh;
+	width: 120vh;
+	font-size: 2em;
+	line-height: 2em;
+	color: #fff;
+	padding: 2em;
+}
+
+.navlinks {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	text-transform: normal;
+	letter-spacing: 2px;
+}
+
+#about {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#recent {
+	width: 10em
+	margin: 2em auto;
+}
+
+#featured {
+	width: 50em
+	margin: 2em auto;
+	background-color: #E89C6C;
+}
+
+
