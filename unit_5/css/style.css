@@ -10,7 +10,7 @@ body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 16px;
 	color: #262626;
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 section {
 	padding: 4em 0;
@@ -26,27 +26,26 @@ nav {
 	background-color: #000;
 	display: block;
 	border: 1px black solid;
-    padding: 10px;
+	padding: 10px;
 }
 
 nav a {
 	color: #ffffff;
-	margin-right: 10px;
+	margin-right: 1em;
 	border-bottom: 1px solid #fff;
-	border: none;
-	display: block;
-	float: left;
-	padding: 15px;
-	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	display: inline-block;
 }
 
 nav a:hover {
 	background-color: #FFB34F;
 }
 
-h1 {
+.logo {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: bold;
+	font-size:1.5em;
 	color: #FFB34F;
 	padding: 10px 10px;
 }
@@ -63,7 +62,7 @@ h2 {
 
 h3 {
 	font-family: arial, sans-serif;
-	font-size: 1.5em
+	font-size: 1.5em;
 	font-weight: normal;
 }
 
@@ -76,14 +75,25 @@ ul {
 	padding-left: 15px;
 }
 
-aside {
+.options {
+	background: #ffb34f;
+	display: block;
+	width: 33.33%;
+	float:left;
+	height: 60vh;
+}
+.options a {
 	color: #ffffff;
 	display: block;
-	width: 180px;
-	float: left;
-	padding: 10px 0;
+	padding: 2em;
+	border-bottom: 1px solid;
+	text-decoration: none;
+	height: 33.33%;
+	font-size: 2em;
 }
-
+.options a:nth-of-type(2) {
+	background:purple;
+}
 footer {
 	background-color: #eee;
     border: 1px black dotted;
@@ -94,13 +104,12 @@ footer {
 	display: block;
 	content: " ";
 	clear: both;
-
 	height: 0;
 	font-size: 0;
 	visibility; hidden;
 }
 
-#wrapper {
+.wrapper {
 	width: 1500px;
 	margin-left: auto;
 	margin-right: auto;
@@ -109,34 +118,28 @@ footer {
 	background-image: url("../images/rainboweyesmall.jpg");
 	background-size: cover;
 	height: 60vh;
-	width: 120vh;
+	width: 66.66%;
+	float:left;
 	font-size: 2em;
-	line-height: 2em;
 	color: #fff;
 	padding: 2em;
 }
-
-.navlinks {
+.navlinks a {
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
-	text-transform: normal;
 	letter-spacing: 2px;
 }
 
 #about {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	clear:both;
+	width: 40em;
+	margin:auto;
 }
-
 #recent {
-	width: 10em
 	margin: 2em auto;
 }
 
 #featured {
-	width: 50em
-	margin: 2em auto;
 	background-color: #E89C6C;
 }
 
