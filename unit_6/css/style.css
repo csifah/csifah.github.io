@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*	{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing:border-box;
+}
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #262626;
+	line-height: 1.5;
+}
+section {
+	padding: 4em 0;
+}
+header {
+	background-color: #000000;
+	font-family: 'Open Sans', Arial, sans-serif;
+	padding: 20px;
+}
+
+nav {
+	text-align: center;
+	background-color: #000;
+	display: block;
+	border: 1px black solid;
+	padding: 10px;
+}
+
+nav a {
+	color: #ffffff;
+	margin-right: 1em;
+	border-bottom: 1px solid #fff;
+	padding: 1em;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav a:hover {
+	background-color: #FFB34F;
+}
+
+.logo {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: bold;
+	font-size:1.5em;
+	color: #FFB34F;
+	padding: 10px 10px;
+}
+
+.options a:hover {
+	background-color: #FFB34F
+}
+
+h3, h4, h5 {
+	margin: 20px 0;
+}
+
+h2 {
+	font-family: 'Stint Ultra Expanded', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+ul {
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+.options {
+	background: #ffb34f;
+	display: block;
+	width: 33.33%;
+	float:left;
+	height: 60vh;
+}
+.options a {
+	color: #ffffff;
+	display: block;
+	padding: 2em;
+	border-bottom: 1px solid;
+	text-decoration: none;
+	height: 33.33%;
+	font-size: 2em;
+}
+.options a:nth-of-type(1) {
+	background: #379191;
+}
+.options a:nth-of-type(2) {
+	background:#786DFF;
+}
+.options a:nth-of-type(3) {
+	background:#3D6AFF;
+}
+
+footer {
+	background-color: #eee;
+    border: 1px black dotted;
+    padding: 20px;
+    clear: both;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+.wrapper {
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#intro {
+	background-image: url("../images/rainboweyesmall.jpg");
+	background-size: cover;
+	height: 60vh;
+	width: 66.66%;
+	float:left;
+	font-size: 2em;
+	color: #fff;
+	padding: 2em;
+}
+#slogan {
+	line-height: 1.5;
+}
+.navlinks a {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	letter-spacing: 2px;
+}
+
+#about {
+	clear:both;
+	width: 40em;
+	margin:auto;
+}
+#featured {
+	background-color: #c4c4c4;
+}
+.featured_col {
+	float: left;
+	width: 25%;
+  	height: 100%;
+	padding: 20px;
+	margin: 0;
+}
+
+.recent_col {
+	float: left;
+	width: 33.3%;
+  	height: 500px;
+	padding: 20px;
+	margin: 0;
+}
+#col_5 {
+	padding: 20px;
+	background-color: #eee;
+}
+#col_6 {
+	padding: 20px;
+	background-color: #eee;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+  	height: 400px;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+	border-right: dotted 2px black;
+}
+
+
