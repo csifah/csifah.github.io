@@ -157,27 +157,27 @@ footer {
 	float: left;
 	width: 50%;
   	height: 100%;
-	padding: 2em;
+	padding: 1.5em;
 	margin: 0;
 }
 
 .featured_col img{
 	float: left;
-	max-width: 100%;
+	width: 50%;
 	padding-right: 1em;
 }
 
 .recent_col {
 	float: left;
 	width: 29.3%;
-  	height: 25em;
+  	height: 35em;
   	background-color: #eee;
 	padding: 2em;
 	margin: 1em;
 }
 
 .recent_col img{
-	max-width: 100%;
+	width: 100%;
 }
 
 .column {
@@ -192,6 +192,39 @@ footer {
 .column: nth-of-type(2) {
 	border-left: 1px black dotted;
 	border-right: 1px black dotted;
+}
+
+#social img {
+	width: 40%;
+}
+
+@media screen and (max-width:1100px){
+	#intro {
+		width: 60%;
+		font-size: 1.5em;
+		margin: auto;
+	}
+	.options a {
+		font-size: 1.5em;
+	}
+	.featured_col {
+		width: 50%;
+	}
+	h3 {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+	h4 {
+		font-size: 1em;
+		text-transform: uppercase;
+	}
+
+}
+
+@media screen and (max-width:990px){
+	.recent_col {
+		height: 30em
+	}
 }
 
 
